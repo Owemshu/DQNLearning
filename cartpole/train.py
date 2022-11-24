@@ -13,8 +13,8 @@ EPSILON_END = 0.02
 EPSILON_DECAY = 100000
 TARGET_UPDATE_FREQUENCY = 10
 
-# env = gym.make("CartPole-v1", render_mode="human")
-env = gym.make("CartPole-v1")
+env = gym.make("CartPole-v1", render_mode="human")
+# env = gym.make("CartPole-v1")
 # env = gym.make("LunarLander-v2")
 # env = gym.make("BipedalWalker-v3")
 s, _ = env.reset()
